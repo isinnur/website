@@ -12,6 +12,12 @@ body {
     background-color: #EDE7F6;
 }
 
+.dark-mode{
+    background-color:#191919;
+    color: white;
+    cursor: pointer;
+}
+
 .header {
     height: 50px;
     color: black;
@@ -40,6 +46,7 @@ body {
 .header .menu li a {
     text-decoration: none;
     color: black;
+    cursor: pointer;
 
 }
 
@@ -227,4 +234,47 @@ body {
     width: 80px;
     padding-left: 50px;
     margin-top: 50px;
+}
+
+
+@media(max-width : 1042px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+}
+
+@media (max-width : 880px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      margin-bottom: 50px;
+    }
+
+    .about-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+   
+}
+
+@media(max-width: 550px){
+    .skills-main{
+        display: flex;
+    }
+ .main .social {
+     text-align: start;
+     padding-left: 50px;
+     padding-bottom: 20px;
+     display: inline-block;
+ }
+ .main .social a{
+    padding-right: 10px;
+ }
+
 }
