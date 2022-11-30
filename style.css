@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #EDE7F6;
+}
+
+.header {
+    height: 50px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 8%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header .name {
+    margin-top: 8px;
+}
+
+
+.header .menu li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+}
+
+.header .menu li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.header .menu li a:hover {
+    color: #9575CD;
+}
+
+.main {
+    height: calc(100% - 50px);
+    width: 100%;
+    display: flex;
+
+}
+
+.main .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.main .social a {
+    text-decoration: none;
+    color: #9575CD;
+    font-size: 25px;
+}
+
+
+.main .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.main .about h1 {
+    margin-bottom: 5px;
+}
+
+.main .about h2 {
+    font-size: 16px;
+    color: #BDBDBD;
+    letter-spacing: -0.7px;
+    margin-bottom: 5px;
+}
+
+.main .about a {
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: #9575CD;
+    width: 150px;
+    height: auto;
+    padding: 10px 10px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+}
+
+.main .about i {
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.main .about a:hover {
+    color: white;
+    background-color: #b5ade3;
+}
+
+.main .about p {}
+
+.main .image {
+    display: flex;
+    align-items: center;
+}
+
+.main .image img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-left: 200px;
+    object-fit: cover;
+
+}
+
+.header-about {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.about-main {
+    display: flex;
+}
+
+.about-img {}
+
+.about-img img {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 50px;
+    border-radius: 12px;
+}
+
+.about2 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.about2 p {
+    margin-bottom: 15px;
+}
+
+.about-main .about2 a {
+    text-decoration: none;
+    margin-top: 70px;
+    background-color: #9575CD;
+    width: 150px;
+    height: auto;
+    padding: 10px 10px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+}
+
+.about-main .about2 a:hover {
+    color: white;
+    background-color: #b5ade3;
+}
+
+.about-main .about2 i {
+    font-size: 18px;
+}
+
+.skills-text {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: 70px;
+}
+
+.skills-main {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.skills-main .frontend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.skills-main .frontend h3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+
+
+.skills-main .frontend img {
+    width: 80px;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+.skills-main .backend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 760px;
+}
+
+
+.skills-main .backend h3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+
+.skills-main .backend img{
+    width: 80px;
+    padding-left: 50px;
+    margin-top: 50px;
+}
