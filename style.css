@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
 }
 
 body {
@@ -17,6 +19,9 @@ body {
     color: white;
     cursor: pointer;
 }
+
+
+
 
 .header {
     height: 50px;
@@ -259,14 +264,16 @@ body {
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
-       filter: invert(1);
+        color: #191919;
+       
+    
      }
      .gelcek.active{
         background: url(images/close.png);
         background-size: 25px;
         background-position: center;
         background-repeat: no-repeat;
-        filter: invert(1);
+       
        
       }
       .header .menu ul.navigation.active{
@@ -281,6 +288,7 @@ body {
         flex-direction: column;
         background-color: #fff;
         z-index: 10;
+        background-color: #EDE7F6;
       }
 
 }

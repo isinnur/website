@@ -4,8 +4,6 @@ function myFunction(){
 }
 
 
-const about = document.querySelector(".about");
-about.addEventListener("click",func());
 
 
 
@@ -15,3 +13,8 @@ function gelcekMenu(){
     menu.classList.toggle('active');
     navigation.classList.toggle('active');
 }
+
+// function myFunction1(){
+    // var xzaza = document.querySelector(" ul.navigation.active");
+    // xzaza.classList.toggle("dark-mode");
+// }
